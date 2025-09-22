@@ -35,3 +35,4 @@ jobs:
       with:
         name: CountBits-${{ matrix.runtime }}
         path: bin/Release/net8.0/${{ matrix.runtime }}/publish
+        overwrite: true
